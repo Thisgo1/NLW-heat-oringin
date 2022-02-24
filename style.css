@@ -7,7 +7,7 @@ html, body {
   --grey: hsl(240, 9%, 89%);
   --black: hsl(240, 6%, 13%);
 
-  background: var(--black);
+  /* background: #09090A; */
 
   height: 100%;
   font-family: 'Roboto', sans-serif;
