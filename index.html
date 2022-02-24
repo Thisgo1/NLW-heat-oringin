@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt_BR">
   <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Thiago Ribeiro - DoWhile 2021</title>
 
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -21,46 +26,49 @@
           <span>
             <img src="images/selo.svg" alt="Selo RocketSet" />
           </span>
-          <img src="http://lorempixel.com.br/185/185/" alt="Foto Pessoal" />
-          
-          
+          <img
+            id="userAvatar"
+            src="http://lorempixel.com.br/185/185/"
+            alt="Foto Pessoal"
+          />
         </div>
 
-        <h1>Thiago Ribeiro</h1>
-        <a href="https://github.com/Thisgo1"
-          ><img src="images/github.svg" alt="logo da github" />Thisgo1</a
+        <h1 id="userName">Nome</h1>
+        <a id="userUrl" href="https://github.com/" target="_blank"
+          ><img src="images/github.svg" alt="logo da github" /><span
+            id="userLogin"
+            >user</span
+          ></a
         >
 
-        <p>bal blab alblablbalablba ballbalalb blalablabllab lbalalb</p>
+        <p id="userBio">bio</p>
 
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/thisgo.png/" target="_blank">
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://www.youtube.com.br/" target="_blank">
+              <img src="images/youtube.svg" alt="icone youtube"
+            /></a>
+          </li>
+
+          <li class="instagram">
+            <a href="https://www.instagram.com/" target="_blank">
               <img src="images/instagram.svg" alt="icone youtube"
             /></a>
           </li>
-
-          <li>
-            <a href="https://www.twitter.com/GolfinhoGrande/" target="_blank">
-              <img src="images/twitter.svg" alt="icone twitter"
+          <li class="facebook">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="images/facebook.svg" alt="icone facebook"
             /></a>
           </li>
 
-          <li>
-            <a
-              href="https://www.facebook.com/thiago.sivaribeiro/"
-              target="_blank"
-            ></a>
-            <img src="images/facebook.svg" alt="icone facebook" />
-          </li>
-
-          <li>
-            <a href="https://www.youtube.com.br/" target="_blank">
-              <img src="images/youtube.svg" alt="icone instagram"
+          <li class="twitter">
+            <a href="https://www.twitter.com/" target="_blank">
+              <img src="images/twitter.svg" alt="icone twitter"
             /></a>
           </li>
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
